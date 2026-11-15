@@ -10,6 +10,7 @@ int main() {
     int y {};
 
     std::cin >> x >> y;
+    std::cout << "cin ok? " << static_cast<bool>(std::cin) << '\n';
 
     int sum = x + y;
     int sub = x - y;
